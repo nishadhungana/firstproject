@@ -1,0 +1,185 @@
+/* applied to all*/
+*{
+    
+    box-sizing: border-box;
+    margin:0;
+}
+li{
+    list-style: none;
+}
+
+/* header section */
+.contents h1:hover{
+     transition: all 1s;
+    transform: scale(1.1);
+}
+header{
+    background-color: rgba(52, 73, 94,0.75);
+    padding: 16px 32px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    top: 0;
+    z-index:1000;
+    position:sticky;
+}
+
+.contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:whitesmoke;
+}
+/* navigation bar */
+.navbar ul{
+    display:flex;
+    padding:0;
+    gap:20px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    padding:9px 16px;
+    border-radius: 4px;
+    transition: all 0.3s;
+    color: whitesmoke;
+}
+
+.nav-item a:hover{
+    background-color: gainsboro;
+    color: black;
+}
+/* home section */
+#home{
+    background-color: #34495e;
+    background-image: url(deadlifting.jpg);
+    background-attachment:fixed; 
+    height: 100vh;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display:flex;
+    align-items: center;
+
+}
+
+#home h2{
+    color:whitesmoke;
+    padding:10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size:40px;
+    opacity:90%;
+    transition:all 1s;
+}
+
+#about,#services,#member{
+    background-color:rgba(52, 73, 94,0.95); 
+   padding:20px;
+   color:whitesmoke;
+}
+/* about section */
+#about{
+    display: flex;
+    gap: 20px;
+    height:fit-content;
+}
+#about #killer{
+    text-align: justify;
+    max-width: 60%;
+    font-size:19px;
+    margin-top:50px;
+}
+
+#about img{
+    flex:auto;
+    width: 90vh;
+    height: 60vh;
+    border: 1px solid rgba(52, 73, 94,0.95);
+}
+
+#killer ul li {
+    transition: transform 0.3s ease;  
+}
+
+#killer ul li:hover {
+    transform: scale(1.05);   
+}
+
+.img:hover{
+    transition: all 1s;
+    transform: scale(1.1) translate(18px,6px); 
+}
+
+.img:active{
+    box-shadow: 0 0 10px white;
+}
+
+#killer h3:hover{
+    transition: all 1s;
+    transform: scale(1.02);
+}
+
+/* services section  */
+
+#services{
+    display:flex;
+   gap: 35px;
+}
+#services h3:hover{
+     transition: all 1s;
+    transform: scale(1.1);
+}
+
+.services2:hover{
+    transition: all 0.5s;
+    transform: translate(20px,20px) scale(1.02);
+ 
+}
+
+#services ul li {
+    transition: transform 0.3s ease; 
+}
+
+#services ul li:hover {
+    transform: scale(1.05); 
+}
+
+/* member section */
+
+#member h3:hover{
+      transition: all 0.4s;
+      transform:scale(1.02);
+}
+
+#member table{
+    width: 60%;
+}
+#member tr:hover{
+    background-color: rgba(255,255,255,0.4);
+    color:black;
+    transform:scale(1.01);
+}
+
+/* footer part */
+
+footer {
+  background-color: rgba(34, 47, 62, 0.98); 
+  color: whitesmoke;
+  padding: 30px 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#contactss{
+     display:flex;
+     flex-wrap:wrap;
+     gap: 500px;
+}
+
+footer a {
+  color: #b8d8f8; 
+}
+
+footer a:hover {
+  color:whitesmoke;
+  text-decoration: underline;
+}
+

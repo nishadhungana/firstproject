@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        border-radius: 3px;
+        margin: auto;
+      }
+      .forms {
+        display: flex;
+        padding: 10%;
+        justify-items: center;
+      }
+      .field {
+        width: 300px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        border: 2.5px solid black;
+        border-radius: 9px;
+        background-color: rgba(244, 250, 199, 0.5);
+      }
+
+      input {
+        background-color: aliceblue;
+      }
+
+      button {
+        background-color: rgba(0, 85, 255, 0.347);
+      }
+    </style>
+  </head>
+  <body>
+    <form action="index.html" class="forms">
+      <fieldset class="field">
+        <label for="fname">Full Name</label><br />
+        <input
+          type="text"
+          id="fname"
+          name="f_name"
+          placeholder="Enter your name"
+          required
+        />
+        <br /><br />
+        <label for="email">Email</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your Email"
+          required
+        /><br /><br />
+        <label for="phone">Contact Number</label><br />
+        <input
+          type="number"
+          id="phone"
+          name="phonee"
+          placeholder="Enter your contact number"
+          required
+        /><br /><br />
+        <label for="age">Age</label><br />
+        <input
+          type="number"
+          id="age"
+          placeholder=" Enter your Age"
+          name="agee"
+          required
+        /><br /><br />
+        <label for="add">Address(city):</label> <br />
+        <select name="address" id="add">
+          <option value="" disabled selected>select your city</option>
+          <option value="ktm">Kathmandu</option>
+          <option value="bkt">Bhaktapur</option>
+          <option value="ltr">Lalitpur</option></select
+        ><br><br>
+        <label for="">Gender</label><br />
+        <input type="radio" id="m" name="gender" value="male" />
+        <label for="m">Male</label><br />
+        <input type="radio" id="f" name="gender" value="female" />
+        <label for="f">Female</label><br />
+        <input type="radio" id="o" name="gender" value="other" />
+        <label for="f">Others</label><br /><br />
+        <button>Submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
