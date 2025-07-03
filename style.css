@@ -62,7 +62,7 @@ header{
 }
 
 #home h2{
-    font-family: 'bebas neue', sans-serif;
+    font-family: 'Bangers', sans-serif;
     color:whitesmoke;
     padding:10px;
     font-weight: 600;
@@ -71,6 +71,7 @@ header{
     opacity:90%;
     transition:all 1s;
 }
+
 
 #about,#services,#member{
     background-color:rgba(52, 73, 94,0.95); 
