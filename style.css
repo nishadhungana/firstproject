@@ -28,6 +28,7 @@ header{
     align-items: center;
     color:whitesmoke;
 }
+
 /* navigation bar */
 .navbar ul{
     display:flex;
@@ -47,6 +48,7 @@ header{
     background-color: gainsboro;
     color: black;
 }
+
 /* home section */
 #home{
     background-color: #34495e;
@@ -81,6 +83,7 @@ header{
    padding:20px;
    color:whitesmoke;
 }
+
 /* about section */
 #about{
     display: flex;
@@ -124,7 +127,6 @@ header{
 }
 
 /* services section  */
-
 #services{
     display:flex;
    gap: 35px;
@@ -148,7 +150,6 @@ header{
 }
 
 /* member section */
-
 #member h3:hover{
       transition: all 0.4s;
       transform:scale(1.02);
@@ -164,7 +165,6 @@ header{
 }
 
 /* footer part */
-
 footer {
   background-color: rgba(34, 47, 62, 0.98); 
   color: whitesmoke;
