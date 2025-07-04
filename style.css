@@ -52,13 +52,15 @@ header{
     background-color: #34495e;
     background-image: url(deadlifting.jpg);
     background-attachment:fixed; 
-    height: 100vh;
+    min-height: 100vh;
     width:100%;
     background-repeat: no-repeat;
     background-size:cover;
     display:flex;
     align-items: center;
-
+    padding: 20px;
+    text-align: center;
+    background-position: center;
 }
 
 #home h2{
@@ -135,7 +137,6 @@ header{
 .services2:hover{
     transition: all 0.5s;
     transform: translate(20px,20px) scale(1.02);
- 
 }
 
 #services ul li {
