@@ -136,6 +136,10 @@ header{
     transform: scale(1.1);
 }
 
+.services2 img{
+    height:78%;
+}
+
 .services2:hover{
     transition: all 0.5s;
     transform: translate(20px,20px) scale(1.02);
@@ -150,14 +154,20 @@ header{
 }
 
 /* member section */
+
 #member h3:hover{
       transition: all 0.4s;
       transform:scale(1.02);
 }
 
-#member table{
-    width: 60%;
-}
+#member h3{
+    margin-left:40%;
+} 
+
+ #member table{
+    width: 80%;
+    margin: 0 auto;
+} 
 #member tr:hover{
     background-color: rgba(255,255,255,0.4);
     color:black;
@@ -187,3 +197,9 @@ footer a:hover {
   text-decoration: underline;
 }
 
+.foot{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    background-color:black;
+}
